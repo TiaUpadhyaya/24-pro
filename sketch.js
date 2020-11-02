@@ -1,4 +1,4 @@
-const Engine = Matter.Engine;
+onst Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 var ground,bas1,bas2,bas3,paper;
@@ -13,7 +13,7 @@ function setup() {
   bas1 = new Basket(700,230,100,20);
   bas2 = new Basket(760,200,20,80);
   bas3 = new Basket(640,200,20,80);
-  paper = new Paper(680,180,25);
+  paper = new Paper(680,180,70);
 
 	Engine.run(engine);
   
